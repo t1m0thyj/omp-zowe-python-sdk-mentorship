@@ -33,13 +33,11 @@
     * Set up Slack channel
     * Set up GitHub repo
     * Merge SDK pull requests
-  * Richard - see below
-  * Soumik - see below
-* Getting started tasks
-  * Report on code coverage in repo (Richard)
+  * Richard - Report on code coverage in repo (Richard)
     * Document command to run unit tests and report on coverage
     * Set up automated coverage check that runs on PR builds (with GitHub Actions)
-  * Implement a method that given a profile type, returns connection details for that profile (Soumik)
+    * This will help us to attain Golden CI badge (see [criteria](https://bestpractices.coreinfrastructure.org/en/criteria))
+  * Soumik - Implement a method that given a profile type, returns connection details for that profile
     * For example: given the profile type "zosmf", load all connection details from the default "zosmf" and "base" profiles in `zowe.config.json`
-  * System test framework
+  * (unassigned) System test framework
     * For example: upload a test file to z/OS, and verify that downloading it returns the same file contents
