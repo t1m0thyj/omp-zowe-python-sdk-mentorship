@@ -1,0 +1,55 @@
+{
+    "$schema": "./zowe.schema.json",
+    "profiles": {
+        "marist": {
+            "profiles": {
+                "zosmf": {
+                    "type": "zosmf",
+                    "properties": {
+                        "port": 10443
+                    },
+                    "secure": []
+                },
+                "tso": {
+                    "type": "tso",
+                    "properties": {
+                        "account": "",
+                        "codePage": "1047",
+                        "logonProcedure": "IZUFPROC"
+                    },
+                    "secure": []
+                },
+                "ssh": {
+                    "type": "ssh",
+                    "properties": {
+                        "port": 22
+                    },
+                    "secure": []
+                },
+                "zftp": {
+                    "type": "zftp",
+                    "properties": {
+                        "port": 21,
+                        "secureFtp": true
+                    },
+                    "secure": []
+                }
+            },
+            "properties": {
+                "host": "zzow03.zowe.marist.cloud",
+                "rejectUnauthorized": false
+            },
+            "secure": [
+                "user",
+                "password"
+            ]
+        }
+    },
+    "defaults": {
+        "zosmf": "marist.zosmf",
+        "tso": "marist.tso",
+        "ssh": "marist.ssh",
+        "zftp": "marist.zftp"
+    },
+    "autoStore": true
+}
