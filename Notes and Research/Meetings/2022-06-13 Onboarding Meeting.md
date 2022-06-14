@@ -11,7 +11,7 @@
     * [Zowe v2 Team Configuration](https://github.com/zowe/zowe-client-python-sdk/milestone/36)
 * Access to contribute
   * GitHub repository
-    * Mentorship repo - direct access
+    * Mentorship repo - direct access to create branches/PRs
     * Python SDK repo - create forks from `next` branch
   * z/OS Marist system
 * Get acquainted with Zowe
