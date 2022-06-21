@@ -8,7 +8,7 @@ Status Report Template: https://github.com/openmainframeproject-internship/resou
 | Document | Description | Document Name |
 |---|---|---|
 | Project Plan | Overall week by week plan of milestones | |
-| Week 1 Status Report | | | 
+| Week 1 Status Report |June 13 - June 19, I worked on loading zowe configs from json file (with c-style comments) with options to load from a custom path and autodiscover based on current working directory.| |
 | Week 2 Status Report | | |
 | Week 3 Status Report | | |
 | Week 4 Status Report | | |
