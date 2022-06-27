@@ -30,7 +30,7 @@
         Good idea to add custom exception classes as needed
       * ApiConnection class used in v1? How should we handle other properties like tokenType and tokenValue in v2? Perhaps a new class?
         Scheduled meeting to discuss this tomorrow
-      * Next steps: Add unit tests to close In Progress issues
+    * Next steps: Add unit tests to close In Progress issues
   * Next Steps
     * Submit weekly status reports as PRs (Week 2 = Jan 20-26)
     * For pull requests on the SDK, at least 80% coverage on new code
