@@ -8,8 +8,8 @@ Status Report Template: https://github.com/openmainframeproject-internship/resou
 | Document | Description | Document Name |
 |---|---|---|
 | Project Plan | Overall week by week plan of milestones | |
-| Week 1 Status Report | | | 
-| Week 2 Status Report | | |
+| Week 1 Status Report |From June 13 - June 19, I worked on loading zowe team configs| Soumik-Dutta-Week1.md|
+| Week 2 Status Report |From June 20 - June 26, I worked on loading secure credentials. | Soumik-Dutta-Week2.md|
 | Week 3 Status Report | | |
 | Week 4 Status Report | | |
 | Week 5 Status Report | | |
