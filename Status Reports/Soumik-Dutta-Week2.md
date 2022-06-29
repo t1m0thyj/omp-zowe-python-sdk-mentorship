@@ -1,5 +1,5 @@
-# Status Report : Week 1
-##### June 13 - June 19
+# Status Report : Week 2
+##### June 20 - June 26
 
 ### Work Done :
 * Load secure credentials
