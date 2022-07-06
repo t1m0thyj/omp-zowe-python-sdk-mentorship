@@ -1,0 +1,6 @@
+host: zzow03.zowe.marist.cloud
+port: 10443
+user: XXX
+password: XXX
+rejectUnauthorized: false
+protocol: https
