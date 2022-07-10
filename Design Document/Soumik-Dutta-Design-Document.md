@@ -11,7 +11,13 @@ The task is split up in the following steps
 4. Merge global config with project config team-config
 5. Save secure profile properties to vault team-config
 6. Save profile properties to zowe.config.json file
-7. Validate that zowe.config.json file matches schema team-config
+
+### Additional Task
+- Write a new Session Manager class that will receive profile properties from PM and create different session types:
+    - Basic: Username and Password
+    - Token
+### Stretch Goals
+- Validate that zowe.config.json file matches schema team-config
 
 ## Tasks
 ### Task 1 - Load profiles from zowe.config.json file team-config
@@ -24,7 +30,7 @@ Task 1. and 2. are already complete and are fully covered by unittests.
 ### Task 2 - Load secure profile properties from vault
 This load the secure credentials using Python package Keyring. The credentials are base64 encoded json file. The structure looks as follows :
 
-```
+``` json
 {
     "$config_file_location" : {
         "profiles.$profile_name.properties.$key" : "$value"
@@ -35,19 +41,57 @@ First it tries to load credentials based on config_file_location, if it fails, t
 ### Task 3 - Load profiles from zowe.config.user.json file
 Zowe User Configs are there to override the Currently Loaded Team Config. The path of the file will be loaded in the same way as the Zowe Team Config.
 Timeline to implement: July 11 - July 17
-### Task 4 - Merge global config with project config team-config
-TBD
-### Task 5 - Save secure profile properties to vault team-config
+### Task 4 - Merge global config with project config
+There can be two types of configs:
+- Project Config - Specific to a particular project
+- Global Config - Can be used to load defaults for any project
+
+In addition to these, "User Configs" can be used to override the values of the given config. For example Project "User" Config will override Project Config and Global "User" Config will override Global Config.
+
+Profile Manager should be able to load Project Configs, and for values that could not be found, Global Config will provide the defaults. Again the values of either of the configs should be overridable by the values in the User Configs.
+
+#### Scenarios
+##### Scenario 1 ("User Config overriding defaults"):
+1. Project user config: "my_zosmf" profile defines `"host": "example1.com"`
+2.  Project config: "my_zosmf" profile defines `"host": "example2.com", "port": 1443`
+
+OR
+
+3. Global user config: "my_zosmf" profile defines `"host": "example1.com"`
+4. Global config: "my_zosmf" profile defines `"host": "example2.com", "port": 1443`
+
+should be loaded as:
+
+`"host": "example1.com", "port": 1443`
+
+##### Scenario 2 (Profiles with same name do not provide defaults):
+2. Project config: "my_zosmf" profile defines `"host": "example1.com"`
+4. Global config: "my_zosmf" profile defines `"host": "example2.com", "port": 1443`
+
+should be loaded as:
+
+`"host": "example1.com"`
+
+##### Scenario 3 (Exception to 2, base profile can provide defaults)
+3. Project config: "my_zosmf" profile of type zosmf defines `"host": "example1.com"`
+4. Global config: "my_base" profile of type base defines `"host": "example2.com", "port": 1443`
+
+should be loaded as:
+
+`"host": "example1.com", "port": 1443`
+
+Timeline to implement: July 22 - July 28
+### Task 5 - Save secure profile properties to vault
 Using keyring.set_password() we can update the secure profile properties. `ProfileManager.update_secure_props(profile_name="", properties: dict = {})` will update/add new properties to the secure credentials.
 
-Timeline to implement: July 21 - July 27
+Timeline to implement: July 29 - August 5
 ### Task 6 - Save profile properties to zowe.config.json file
 Using jsonc.dump(JSONCDict, file) we can add profile. We will add a new function `ProfileManager.add_profile(name="", type="")` and then using setters add properties. Also we will be using setters to add the secure properties and due to the work done on task 5, we will be able to save the secure values to keyring. Finally `ProfileManager.save_profile()` will output the file. Also `ProfileManager.remove_profile()` will remove a named profile and its secure properties on keyring.
 
-Timeline to implement: July 28 - August 4
-### Task 7 - Validate that zowe.config.json file matches schema team-config
+Timeline to implement: August 6 - August 12
+### Stretch Goals - Validate that zowe.config.json file matches schema
 I plan to implement validation using jsonschema as well as a custom function to implement custom rules and emit warnings.
-Timeline to implement: August 5 - August 11
+Timeline to implement: August 13 - August 19
 
 ## Approach strategy
 Write actual code, then add custom Exceptions for unexpected issues. Then finally write unittests.
