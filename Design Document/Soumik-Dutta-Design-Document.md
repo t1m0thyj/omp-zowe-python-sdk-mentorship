@@ -40,6 +40,7 @@ This load the secure credentials using Python package Keyring. The credentials a
 First it tries to load credentials based on config_file_location, if it fails, then it tries to load global config credentials.
 ### Task 3 - Load profiles from zowe.config.user.json file
 Zowe User Configs are there to override the Currently Loaded Team Config. The path of the file will be loaded in the same way as the Zowe Team Config.
+
 Timeline to implement: July 11 - July 17
 ### Task 4 - Merge global config with project config
 There can be two types of configs:
@@ -91,6 +92,7 @@ Using jsonc.dump(JSONCDict, file) we can add profile. We will add a new function
 Timeline to implement: August 6 - August 12
 ### Stretch Goals - Validate that zowe.config.json file matches schema
 I plan to implement validation using jsonschema as well as a custom function to implement custom rules and emit warnings.
+
 Timeline to implement: August 13 - August 19
 
 ## Approach strategy
