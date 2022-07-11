@@ -7,15 +7,11 @@ Last version of Python SDK used to use different YAML files for different profil
 The task is split up in the following steps
 1. Load profiles from zowe.config.json file team-config
 2. Load secure profile properties from vault
-3. Load profiles from zowe.config.user.json file
-4. Merge global config with project config team-config
-5. Save secure profile properties to vault team-config
-6. Save profile properties to zowe.config.json file
+3. Write a new Session class
+4. Load profiles from zowe.config.user.json file
+5. Merge global config with project config team-config
+6. Save secure profile properties to vault team-config
 
-### Additional Task
-- Write a new Session Manager class that will receive profile properties from PM and create different session types:
-    - Basic: Username and Password
-    - Token
 ### Stretch Goals
 - Validate that zowe.config.json file matches schema team-config
 
@@ -38,11 +34,18 @@ This load the secure credentials using Python package Keyring. The credentials a
 }
 ```
 First it tries to load credentials based on config_file_location, if it fails, then it tries to load global config credentials.
-### Task 3 - Load profiles from zowe.config.user.json file
-Zowe User Configs are there to override the Currently Loaded Team Config. The path of the file will be loaded in the same way as the Zowe Team Config.
+
+### Task 3 - Session Class
+Write a new Session Manager class that will receive profile properties from PM and create different session types:
+- Basic: Username and Password
+- Token
 
 Timeline to implement: July 11 - July 17
-### Task 4 - Merge global config with project config
+### Task 4 - Load profiles from zowe.config.user.json file
+Zowe User Configs are there to override the Currently Loaded Team Config. The path of the file will be loaded in the same way as the Zowe Team Config.
+
+Timeline to implement: July 22 - July 28
+### Task 5 - Merge global config with project config
 There can be two types of configs:
 - Project Config - Specific to a particular project
 - Global Config - Can be used to load defaults for any project
@@ -81,19 +84,19 @@ should be loaded as:
 
 `"host": "example1.com", "port": 1443`
 
-Timeline to implement: July 22 - July 28
-### Task 5 - Save secure profile properties to vault
+Timeline to implement: July 29 - August 5
+### Task 6 - Save secure profile properties to vault
 Using keyring.set_password() we can update the secure profile properties. `ProfileManager.update_secure_props(profile_name="", properties: dict = {})` will update/add new properties to the secure credentials.
 
-Timeline to implement: July 29 - August 5
-### Task 6 - Save profile properties to zowe.config.json file
+Timeline to implement: August 6 - August 12
+### Stretch Goals
+#### Task - Save profile properties to zowe.config.json file
 Using jsonc.dump(JSONCDict, file) we can add profile. We will add a new function `ProfileManager.add_profile(name="", type="")` and then using setters add properties. Also we will be using setters to add the secure properties and due to the work done on task 5, we will be able to save the secure values to keyring. Finally `ProfileManager.save_profile()` will output the file. Also `ProfileManager.remove_profile()` will remove a named profile and its secure properties on keyring.
 
-Timeline to implement: August 6 - August 12
-### Stretch Goals - Validate that zowe.config.json file matches schema
+#### Validate that zowe.config.json file matches schema
 I plan to implement validation using jsonschema as well as a custom function to implement custom rules and emit warnings.
 
-Timeline to implement: August 13 - August 19
+Timeline to implement: August 13 - August 25
 
 ## Approach strategy
 Write actual code, then add custom Exceptions for unexpected issues. Then finally write unittests.
