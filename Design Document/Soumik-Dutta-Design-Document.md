@@ -39,7 +39,7 @@ First it tries to load credentials based on config_file_location, if it fails, t
 ### Task 3 - Session Class
 Write a new Session Manager class that will receive profile properties from PM and create different session types:
 - Basic: Username and Password
-- Token
+- Token: TokenType and TokenValue
 
 Timeline to implement: July 11 - July 17
 ### Task 4 - Load profiles from zowe.config.user.json file
