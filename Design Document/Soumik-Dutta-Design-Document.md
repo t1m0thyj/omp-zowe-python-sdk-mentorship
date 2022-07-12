@@ -1,7 +1,7 @@
 # Team Config Support in Zowe Python SDK
 
 ## Motivation
-Last version of Python SDK used to use different YAML files for different profile configuration. However the Nodejs SDK has moved on to JSON configs containing different profiles in one single file. There is also the concept of global and user configs for use for teams with multiple members and multiple roles. Hence to support such configs in Zowe Python SDK, we are introducing a new Profile Manager class [Zowe Team Config](https://medium.com/zowe/zowe-cli-getting-started-made-easy-f53d769c678e).
+Last version of Python SDK used to use different YAML files for different profile configuration. However the Nodejs SDK has moved on to JSON configs ([Zowe Team Config](https://medium.com/zowe/zowe-cli-getting-started-made-easy-f53d769c678e)) containing different profiles in one single file. There is also the concept of global and user configs for use for teams with multiple members and multiple roles. Hence to support such configs in Zowe Python SDK, we are introducing a new Profile Manager class.
 
 ## Split-Up of Tasks
 The task is split up in the following steps
@@ -13,6 +13,7 @@ The task is split up in the following steps
 6. Save secure profile properties to vault team-config
 
 ### Stretch Goals
+- Save profile properties to zowe.config.json file
 - Validate that zowe.config.json file matches schema team-config
 
 ## Tasks
@@ -29,8 +30,8 @@ This load the secure credentials using Python package Keyring. The credentials a
 ``` json
 {
     "$config_file_location" : {
-        "profiles.$profile_name.properties.$key" : "$value"
-    }
+        "profiles.$profile_name.properties.$key" : "$value",
+    },
 }
 ```
 First it tries to load credentials based on config_file_location, if it fails, then it tries to load global config credentials.
@@ -90,7 +91,7 @@ Using keyring.set_password() we can update the secure profile properties. `Profi
 
 Timeline to implement: August 6 - August 12
 ### Stretch Goals
-#### Task - Save profile properties to zowe.config.json file
+#### Save profile properties to zowe.config.json file
 Using jsonc.dump(JSONCDict, file) we can add profile. We will add a new function `ProfileManager.add_profile(name="", type="")` and then using setters add properties. Also we will be using setters to add the secure properties and due to the work done on task 5, we will be able to save the secure values to keyring. Finally `ProfileManager.save_profile()` will output the file. Also `ProfileManager.remove_profile()` will remove a named profile and its secure properties on keyring.
 
 #### Validate that zowe.config.json file matches schema
