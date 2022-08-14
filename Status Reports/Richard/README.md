@@ -16,11 +16,3 @@ Weekly/bi-weekly status reports go into this folder
 | Week 10 Status Report | | |
 | Week 11 Status Report | | |
 | Week 12 Status Report | | |
-| Week 13 Status Report | | |
-| Week 14 Status Report | | |
-| Week 15 Status Report | | |
-| Week 16 Status Report | | |
-| Week 17 Status Report | | |
-| Week 18 Status Report | | |
-| Week 19 Status Report | | |
-| Week 20 Status Report | | |
