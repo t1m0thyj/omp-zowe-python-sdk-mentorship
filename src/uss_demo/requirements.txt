@@ -1,0 +1,2 @@
+-f https://github.com/zowe/zowe-client-python-sdk/releases/tag/v1.0.0.dev2
+zowe>=1.0.0.dev0

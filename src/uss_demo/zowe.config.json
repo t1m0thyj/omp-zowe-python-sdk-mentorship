@@ -1,0 +1,24 @@
+{
+    "$schema": "./zowe.schema.json",
+    "profiles": {
+        "zosmf": {
+            "type": "zosmf",
+            "properties": {
+                "host": "zzow03.zowe.marist.cloud",
+                "port": 10443,
+                "rejectUnauthorized": false
+            },
+            "secure": []
+        },
+        "base": {
+            "type": "base",
+            "properties": {},
+            "secure": []
+        }
+    },
+    "defaults": {
+        "zosmf": "zosmf",
+        "base": "base"
+    },
+    "autoStore": true
+}
