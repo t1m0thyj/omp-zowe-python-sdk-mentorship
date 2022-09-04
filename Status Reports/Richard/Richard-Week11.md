@@ -1,6 +1,6 @@
 <p align=center> 
   STATUS REPORT <br>
-  August 8th - 14th
+  August 22nd - 28th
  
 ### Project Members:
 
@@ -9,8 +9,6 @@
 
 ### Accomplishments for the week
 
-	• Implemented a method for mounting/unmounting/listing a zOS File system
+	• Worked on the end-of-internship presentatin
 	
 ### Milestones to be completed
-
-  • Tackle z/OSMF Files and Jobs milestone

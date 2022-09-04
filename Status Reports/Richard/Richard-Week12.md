@@ -1,6 +1,6 @@
 <p align=center> 
   STATUS REPORT <br>
-  August 8th - 14th
+  August 29th - 31st
  
 ### Project Members:
 
@@ -9,8 +9,6 @@
 
 ### Accomplishments for the week
 
-	• Implemented a method for mounting/unmounting/listing a zOS File system
+	• Did a recording of intenship presentation for the Open mainframe summit
 	
 ### Milestones to be completed
-
-  • Tackle z/OSMF Files and Jobs milestone
