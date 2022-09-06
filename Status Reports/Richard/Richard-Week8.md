@@ -1,6 +1,6 @@
 <p align=center> 
   STATUS REPORT <br>
-  July 1st - 7th
+  August 1st - 7th
  
 ### Project Members:
 
