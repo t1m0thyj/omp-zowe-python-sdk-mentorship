@@ -7,11 +7,13 @@ a better understanding of the problems you encountered during the developmemnt o
 
 | Folder | Description |
 |---|---|
-| Documentation |  all documentation the project team has created to describe the architecture, design, installation and configuratin of the peoject |
-| Notes and Research | Relavent information useful to understand the tools and techniques used in the project |
+| Documentation |  all documentation the project team has created to describe the architecture, design, installation and configuration of the project |
+| Notes and Research | Relevant information useful to understand the tools and techniques used in the project |
 | Status Reports | Project management documentation - weekly reports, milestones, etc. |
-| scr | Source code - create as many subdirectories as needed |
+| src | Source code - create as many subdirectories as needed |
 
 ## Project Team
-- *Mentor's Name*  - *Company Affliation* - Mentor
-- *Mentee's Name* - *University* - Mentee
+- *Fernando Rijo Cedeno*  - *Broadcom* - Mentor
+- *Timothy Johnson*  - *Broadcom* - Mentor
+- *Aaditya Sinha* - *University* - Mentee
+- *Abdul "Samad" Siddiqui* - *University* - Mentee
