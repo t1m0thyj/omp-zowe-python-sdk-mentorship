@@ -8,7 +8,7 @@ Weekly report for: **AbdulSamad**
 - Setup Zowe Explorer for VSCode
 - Testing my credentials to the mainframe at Marist
 - Added method to change the copy dataset or memeber
-- Added unit + integeration tests
+- Added unit 
 - Created a PR for issue #63
 
 #### Time (optional)
