@@ -9,7 +9,7 @@ Weekly report for: **AbdulSamad**
 - Testing my credentials to the mainframe at Marist
 - Added method to change the copy dataset or memeber
 - Added unit + integeration tests
-- Created a PR for issue #182
+- Created a PR for issue #63
 
 #### Time (optional)
 - test: 1 hour 50 minutes
