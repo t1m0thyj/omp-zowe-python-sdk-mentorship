@@ -1,6 +1,6 @@
 # Status Report
 
-## Week 00
+## Week 01
 
 Weekly report for: **Aaditya Sinha**
 
