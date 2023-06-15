@@ -9,7 +9,7 @@ Status Report Template: https://github.com/openmainframeproject-internship/resou
 |---|---|---|
 | Project Plan | Overall week by week plan of milestones | |
 | Week 1 Status Report | Worked on issue #182 | Aaditya-Sinha-week1.md | 
-| Week 2 Status Report | | |
+| Week 2 Status Report | Worked on isse #181 and #182 | Aaditya-Sinha-week2.md |
 | Week 3 Status Report | | |
 | Week 4 Status Report | | |
 | Week 5 Status Report | | |
