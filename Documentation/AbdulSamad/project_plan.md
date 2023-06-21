@@ -27,8 +27,8 @@ The first two items are prerequisites for a stable 1.0 release, and the last ite
 | Week 3 | Resolved comments | Address the raised comments by refactoring the `list_dsn`, `copy_uss_to_dataset`, and `copy_dataset_or_member` functions |
 | Week 4 | Write a method to credential values from multiple fields, assemble them, remove trailing null bytes| Load secure values from multiple credential entries on Windows |
 | Week 5 | Create or update profiles in the highest priority layer.<br>Implement secure property storage based on an `is_secure` check.<br>Define properties and a profile in ProfileManager for the "profiles.zosmf" profile.| Save profile properties to zowe.config.json file  |
-<!--| Week 6 |... |... |
-| Week 7 | | |
+| Week 6 | Exam Break | Final Exams |
+<!--| Week 7 | | |
 | Week 8 |||
 | Week 9 | . | |
 | Week 10 |  ||--!>
