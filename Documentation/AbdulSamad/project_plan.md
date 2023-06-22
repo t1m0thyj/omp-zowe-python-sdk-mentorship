@@ -31,5 +31,5 @@ The first two items are prerequisites for a stable 1.0 release, and the last ite
 | Week 8 | Implement secure property storage based on an `is_secure` check.| [core]  Save profile properties to `zowe.config.json` file  |
 | Week 9 | Define properties and a profile in ProfileManager for the `profiles.zosmf` profile <br>Write unit & integeration tests| [core]  Save profile properties to `zowe.config.json` file  |
 | Week 10 |Read and extract the secure properties from the `zowe.config.json` and `zowe.config.user.json` files.<br>Establish a connection to the vault and store the extracted secure properties.| [core] Save secure profile properties to vault|
-| Week 11 | Implement encryption or secure storage mechanisms for the properties and handle error logging. |[core] Save secure profile properties to vault  |
-| Week 12 | Create unit and integeration tests for the implementation |[core] Save secure profile properties to vault|
+| Week 11 | Implement encryption or secure storage mechanisms for the properties and handle error logging.<br> Create unit and integeration tests for the implementation |[core] Save secure profile properties to vault  |
+| Week 12 | Final Presentation | Final Presentation|
