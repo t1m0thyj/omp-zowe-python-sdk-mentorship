@@ -1,18 +1,17 @@
 # Status Report
 
-## Week 05
+## Week 06
 
 Weekly report for: **Aaditya Sinha**
 
 ### What did you do last week?
-- Refactored the code and moved `validate_schema` method to `ConfigFile` class
-- Fixed the URI check to download `schema` from the internet
-- Fixed raising exceptions for validation errors
-- Fixed validator if there is no path given
+- Moved the validation log to `init_from_file` to validate schema automatically
+- Fixed the tests
+- Created the unit test(work in progress)
 
 #### Time (optional)
-- test: 1 hour 5 minutes
-- code: 13 hour 48 minutes
+- test: 2 hour 5 minutes
+- code: 15 hour 52 minutes
 - setup: NA
 
 ```mermaid
@@ -25,7 +24,8 @@ pie title Breakdown
 ```
 
 ### What will you do this week?
-- Will start working on unit tests
+- Complete the unit tests for `validate_schema`
+- Start working on Load profile properties from environment variables
 
 ### Are there any impediments in your way?
 - NA
