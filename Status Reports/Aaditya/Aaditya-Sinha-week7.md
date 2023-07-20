@@ -6,7 +6,8 @@ Weekly report for: **Aaditya Sinha**
 
 ### What did you do last week?
 - Added method in ConfigFile class to return the list of profile properties from the `schema json`
-- Added the method in ProfileManager class to get env variables and map them to the profile properties
+- Added the method in ProfileManager class to get `env` variables and map them to the profile properties
+- Refactored the code for `env` variables
 - Created the unit test for valid schema(work in progress)
 
 #### Time (optional)
@@ -24,6 +25,7 @@ pie title Breakdown
 ```
 
 ### What will you do this week?
+- Fix the tests for PR #200(env variables)
 - Complete the unit tests for `invalid schemas`
 - Continue working on Load profile properties from environment variables
 - Create the unit tests for the `env variables`
