@@ -6,7 +6,7 @@ Weekly report for: **Abdul Samad**
 
 ### What did you do last week?
 - Created a `CredentialManager` class and added `load_secure_props()`, `_retrieve_credential()`, `delete_credential()`, and `save_secure_props` methods.
-- Added the `set_property()` method.
+- Added the `set_profile()` & `ProfileManager.save()` method.
 - Tested all possible cases.
 - Addressed the comment.
 
