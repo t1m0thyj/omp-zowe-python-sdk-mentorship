@@ -16,7 +16,7 @@ Status Report Template: https://github.com/openmainframeproject-internship/resou
 | Week 6 Status Report | Exams Break | Exams Break |
 | Week 7 Status Report | worked on issue [#73](https://github.com/zowe/zowe-client-python-sdk/pull/201) |[samadpls-week7.md](samadpls-week7.md) |
 | Week 8 Status Report | worked on issue [#73](https://github.com/zowe/zowe-client-python-sdk/pull/201) |[samadpls-week8.md](samadpls-week8.md)  |
-| Week 9 Status Report | | |
+| Week 9 Status Report |worked on issue [#73](https://github.com/zowe/zowe-client-python-sdk/pull/201) |[samadpls-week9.md](samadpls-week9.md) |
 | Week 10 Status Report | | |
 | Week 11 Status Report | | |
 | Week 12 Status Report | | |
