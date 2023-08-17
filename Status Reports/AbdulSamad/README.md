@@ -18,13 +18,6 @@ Status Report Template: https://github.com/openmainframeproject-internship/resou
 | Week 8 Status Report | worked on issue [#73](https://github.com/zowe/zowe-client-python-sdk/pull/201) |[samadpls-week8.md](samadpls-week8.md)  |
 | Week 9 Status Report |worked on issue [#73](https://github.com/zowe/zowe-client-python-sdk/pull/201) |[samadpls-week9.md](samadpls-week9.md) |
 | Week 10 Status Report | worked on issue [#134](https://github.com/zowe/zowe-client-python-sdk/pull/191) & added unit test | [samadpls-week10.md](samadpls-week10.md) |
-| Week 11 Status Report | | |
+| Week 11 Status Report |  worked on issue [#73 & 72](https://github.com/zowe/zowe-client-python-sdk/pull/201) & added unit test | [samadpls-week11.md](samadpls-week11.md) |
 | Week 12 Status Report | | |
 | Week 13 Status Report | | |
-| Week 14 Status Report | | |
-| Week 15 Status Report | | |
-| Week 16 Status Report | | |
-| Week 17 Status Report | | |
-| Week 18 Status Report | | |
-| Week 19 Status Report | | |
-| Week 20 Status Report | | |
