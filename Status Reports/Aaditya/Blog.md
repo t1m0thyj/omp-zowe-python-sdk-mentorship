@@ -56,6 +56,6 @@ I am glad that I got this opportunity and have learnt a lot during the span of 3
 
 3. Stipend: Who does not love a stipend while learning 😉, the LFX Mentorship Programme pays a great stipend, but I would really advise participating in this programme not for the stipend but for the above points.
 
-Overall my journey has been a great experience and I would like to thank my mentors Timothy Johnson and Frenendo(such a great mentors) for guiding me throughout the mentorship, I would like to thank the community that’s always active and helps for the betterment of such tools 😃.
+Overall my journey has been a great experience and I would like to thank my mentors Timothy Johnson and Fernando Rijo Cedeno(such a great mentors) for guiding me throughout the mentorship, I would like to thank the community that’s always active and helps for the betterment of such tools 😃.
 
 This summarized my journey as a Linux Foundation’s Zowe Mentee and I hope this blog was informative.
