@@ -1,9 +1,9 @@
-
+# **My Journey of Personal and Professional Growth as Linux Foundation Summer Mentee**
 ### About Me: Abdul Samad Siddiqui 🙌 
 Hey Folks! I'm Abdul Samad Siddiqui 👋, currently a second-year undergraduate software engineering student at Usman Institute of Technology. With two years of experience, I've been actively contributing to various open-source projects for a year. As a dedicated open-source advocate, I've organized numerous workshops on my campus to foster enthusiasm for open-source initiatives. In 2023, I had the privilege of becoming an LFX Mentee in the Open Mainframe Projects. My project centered around the Zowe-Python-SDK.
 
 ### How I Discovered the Zowe-Python-SDK Project 🌟
-My journey with the Zowe-Python-SDK began unexpectedly. While working on a university assignment, I received an email notifying me of a rejection from one of the LFX projects I had applied for. Curious, I decided to explore other projects available through LFX. That's when I stumbled upon the Zowe-Python-SDK project, and it instantly caught my interest. I swiftly updated my resume and applied without realizing that it was the final day for applications. Miraculously, within hours, an email arrived, tasking me with a challenge to be completed within two days.
+My journey with the Zowe-Python-SDK began unexpectedly. While working on a university assignment, I received an email notifying me of a rejection from one of the LFX projects I had applied for. Curious, I decided to explore other projects available through LFX. That's when I stumbled upon the Zowe-Python-SDK project, which instantly caught my interest. I swiftly updated my resume and applied without realizing that it was the final day for applications. Miraculously, within hours, an email arrived, tasking me with a challenge to be completed within two days.
 
 The task involved explaining a POST request, and I crafted a concise email with accompanying Flask code to demonstrate my understanding. Despite not receiving a response for a week, my patience paid off when I finally received the email confirming my selection. I was immensely grateful to my mentors for believing in my application and granting me the opportunity to contribute to Zowe.
 
@@ -11,7 +11,7 @@ The task involved explaining a POST request, and I crafted a concise email with 
 
 
 ### What is Zowe-Python-SDK 🚀:
-Zowe is an integrated and extensible open-source framework for z/OS. Similar to popular operating systems like macOS and Windows, Zowe offers a core set of applications combined with APIs and OS capabilities. These components pave the way for future applications to be built upon. Zowe provides modern interfaces to interact with z/OS, allowing a cloud-platform-like experience. The Zowe-Python-SDK specifically enables the creation of client applications and scripts that interface with z/OS REST API interfaces. This SDK empowers Python developers to craft powerful applications for interacting with z/OS components.
+Zowe is an integrated and extensible open-source framework for z/OS. Like popular operating systems like macOS and Windows, Zowe offers a core set of applications combined with APIs and OS capabilities. These components pave the way for future applications to be built upon. Zowe provides modern interfaces to interact with z/OS, allowing a cloud-platform-like experience. The Zowe-Python-SDK specifically enables the creation of client applications and scripts that interface with z/OS REST API interfaces. This SDK empowers Python developers to craft powerful applications for interacting with z/OS components.
 
 ### Initiating Change as a Summer Mentee 🌞:
 As a Linux Foundation Mentee, I undertook the task of enhancing the Zowe project. My primary focus was on finalizing team configuration support and implementing various enhancements for the forthcoming v2 release. This encompassed adding crucial support for Zowe v2 team configuration. In this endeavor, I tackled a diverse range of challenges, including:
