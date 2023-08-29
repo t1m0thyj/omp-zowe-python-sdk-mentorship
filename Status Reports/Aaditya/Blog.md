@@ -15,7 +15,7 @@ Zowe is an integrated and extensible open-source framework for z/OS. Similar to 
 During my time as a Linux Foundation Mentee, I focused on enhancing the Zowe project. Specifically, I worked on finalizing team configuration support and other enhancements to facilitate a v2 release. This included adding support for Zowe v2 team configuration. I tackled various issues, such as:
 
 
-## My acceptance into the programme
+## My acceptance into the programme 🎉
 “zowe-client-python-sdk” which was a set of Python packages designed to allow programmatic interactions with z/OS REST API interfaces with minimum effort.
 
 It's 2022, I started contributing to it. 3–4 PRs of mine also got merged in the repo. I also talked with mentor about the issues/PRs related stuffs. Then by the time I was contributing in the last week of May the deadline the mentorship program was close. So I immediately submitted the requirements which were needed to apply resume, enrollment verification and a cover letter containing answers to the questions asked. After few weeks I didn’t get any email from organization and the mentorship program was about to start. Then I checked to mentorship page and saw that the mentees were already get selected. I was shocked and dissappointed of course.
@@ -30,7 +30,7 @@ I was pretty nervous. Everyday I look into my gmail. Then one day I was studying
 
 ![](./acceptance.png)
 
-## What did I do for 3 months?
+## What did I do for 3 months? 💻
 My main task was to enhance zowe-python-client-sdk for version 2 by adding features which were already in node.js sdk and add z/OSMF Files and Jobs Api.
 
 For first month I was assigned with some good first issues to add zos-files and zos-jobs api.
@@ -45,7 +45,7 @@ It was great experience learning a lot about zowe-cli and how to work on complex
 
 At last week I was able to complete all the tasks and making all the PRs ready to merge.
 
-## Should you apply for LFX Mentorship Programme too?
+## Should you apply for LFX Mentorship Programme too? 🤔
 Are you interested in Open Source? Then, a Simple answer — Yes! Definitely try applying for the programme.
 
 I am glad that I got this opportunity and have learnt a lot during the span of 3 months. I think it’s a really cool opportunity that you personally get mentored by amazing engineers who build tools to solve problems. Some perks of participating in the LFX Mentorship Programme include:
