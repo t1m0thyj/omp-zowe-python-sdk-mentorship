@@ -7,6 +7,9 @@ My journey with the Zowe-Python-SDK began unexpectedly. While working on a unive
 
 The task involved explaining a POST request, and I crafted a concise email with accompanying Flask code to demonstrate my understanding. Despite not receiving a response for a week, my patience paid off when I finally received the email confirming my selection. I was immensely grateful to my mentors for believing in my application and granting me the opportunity to contribute to Zowe.
 
+![acceptance](https://github.com/t1m0thyj/omp-zowe-python-sdk-mentorship/assets/94792103/4bbfd8d6-be2d-4c44-bd31-c9d90e29abd4)
+
+
 ### What is Zowe-Python-SDK 🚀:
 Zowe is an integrated and extensible open-source framework for z/OS. Similar to popular operating systems like macOS and Windows, Zowe offers a core set of applications combined with APIs and OS capabilities. These components pave the way for future applications to be built upon. Zowe provides modern interfaces to interact with z/OS, allowing a cloud-platform-like experience. The Zowe-Python-SDK specifically enables the creation of client applications and scripts that interface with z/OS REST API interfaces. This SDK empowers Python developers to craft powerful applications for interacting with z/OS components.
 
