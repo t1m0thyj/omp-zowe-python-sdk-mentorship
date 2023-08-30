@@ -42,8 +42,26 @@ I learned a lot from these issues, how we can make the use of utility method, ho
 After one and half month I was assigned with Zowe v2 Configuration which were having the core features for the python-sdk.
 I was working on 3 main issues with priority medium and high.
 
-### - [core] Validate that zowe.config.json file matches schema #74
+### 1. [core] Validate that zowe.config.json file matches schema #74
 
+In this issue, we were given a `zowe.config.json` file that references a zowe.schema.json file. My task was to add a feature that will validate the contents of JSON file to the schema file.
+
+The main part was exception handling, because there were different types error generate through the validation. Another difficult part was to handle the `schema_property` which has to load from the internet URI.
+
+But the most time taken part was implementing unit tests. I learned a lot about unit testing while working on this issue. I also learned so much about the fake file system and how you can use different fake files for different tests.
+
+### 2. Load profile properties from environment variables #136
+
+When loading a profile team config, we can provide a `override_with_env` flag that will override the profile properties from the environment variables.
+
+This was really interesting task, because I need to work on the `env` variables. The most difficult task was to map these `env` variables to the profile properties which was also interesting simultaneously. I really learned a lot about `env` variables and how can I add/use them in the tests.
+
+
+### 3. Fix profile merge order to match Node.js SDK #190
+
+Although I already worked on this issue before the mentorship, as I was also contributing the zowe. It was easy for me to get hands on it.
+
+In this issue, the `ProfileManager.load` method was failing for the bas profile, it was not taking the `user` and the `password`. So, I just need to implement the logic which was already implemented in the NodeJs sdk to merge the layers then perform
 
 It was great experience learning a lot about zowe-cli and how to work on complex project. I also learned that unit tests are important part of software engineering.
 
