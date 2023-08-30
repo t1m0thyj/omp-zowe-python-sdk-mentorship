@@ -41,6 +41,10 @@ I learned a lot from these issues, how we can make the use of utility method, ho
 
 After one and half month I was assigned with Zowe v2 Configuration which were having the core features for the python-sdk.
 I was working on 3 main issues with priority medium and high.
+
+### - [core] Validate that zowe.config.json file matches schema #74
+
+
 It was great experience learning a lot about zowe-cli and how to work on complex project. I also learned that unit tests are important part of software engineering.
 
 At last week I was able to complete all the tasks and making all the PRs ready to merge.
