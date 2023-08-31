@@ -33,13 +33,13 @@ These tasks involved creating a security mechanism that stored sensitive profile
 #### [core] Save profile properties to the zowe.config.json file (#73)
 With proficiency in place, I embarked on a mission to secure profile properties within the zowe.config.json file, aligning with Zowe's structure and ethos.
 
-Each challenge fused Python expertise, REST API mastery, and analytical prowess. My journey was further enriched by the guidance of mentors Timothy Johnson and Fernando Rijo Cedeno. Our weekly sync-up calls metamorphosed into platforms for innovation, discussions, and solutions.
+Each challenge fused Python expertise, REST API mastery, and analytical prowess. My journey was further enriched by the guidance of mentors Timothy Johnson and Fernando Rijo Cedeno. Our weekly sync-up calls turned into opportunities for brainstorming, discussion, and problem-solving.
 
 ### Overcoming Challenges and Embracing Triumphs 🤔:
 While my mentors provided unwavering support, I faced my share of challenges, especially with the intricate issue of loading secure values from multiple credential entries on Windows (#134). This challenge was intensified by the unique behavior of the keyring package in Python on Windows, which deviated from other Zowe frameworks like NodeJs and Zowe-CLI. However, with their consistent guidance and encouragement, we collectively surmounted this challenge, emerging victorious.
 
 ### Concluding with Gratitude and Growth 🌱
-In closing, gratitude fills my heart for mentors and the Linux Foundation. This transformative journey of contributing to the Zowe project has illuminated personal and professional growth.
+In closing, I am filled with gratitude towards my mentors and the Linux Foundation. This journey of contributing to the Zowe project has brought about significant personal and professional growth, shedding light on new possibilities and opportunities.
 
 - GitHub: https://github.com/samadpls
 - Twitter: https://twitter.com/samadpls
